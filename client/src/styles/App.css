@@ -1,4 +1,105 @@
+html,
+body,
+div,
+p,
+ul {
+  padding: 0;
+  margin: 0;
+}
+
 h1 {
   color: pink;
+}
+
+footer {
+  background-image: url(../assets/images/background_footer.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 0 25px;
+}
+
+footer .footer__logo {
+  display: block;
+  padding-top: 75px;
+}
+
+footer .footer__grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer .footer__grid .footer__links > ul,
+footer .footer__grid .footer__payment > ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  margin: 50px 0 40px 0;
+  width: 45vw;
+}
+
+footer .footer__grid .footer__links > ul {
+  text-align: left;
+  margin: 20px 0;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+footer .footer__grid .footer__links > ul li {
+  padding: 15px 20px 10px 0;
+}
+
+footer .footer__grid .footer__payment > ul {
+  line-height: 2em;
+  margin: 15px 0;
+}
+
+footer .footer__grid .footer__payment > ul li {
+  padding: 0 10px 10px 0;
+}
+
+@media screen and (min-width: 750px) {
+  footer {
+    height: 278px;
+    padding: 0 60px;
+  }
+  footer .footer__grid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  footer .footer__grid .footer__links > ul,
+  footer .footer__grid .footer__payment > ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style-type: none;
+    margin: 50px 0 40px 0;
+    width: 45vw;
+  }
+  footer .footer__grid .footer__links > ul {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    font-size: 9.5px;
+  }
+  footer .footer__grid .footer__payment > ul {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
 }
 /*# sourceMappingURL=App.css.map */

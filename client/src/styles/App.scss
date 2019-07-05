@@ -1,3 +1,16 @@
+//Cancelling browser styling
+
+html,
+body,
+div,
+p,
+ul {
+  padding: 0;
+  margin: 0;
+}
+
 h1 {
   color: pink;
 }
+
+@import "footer";

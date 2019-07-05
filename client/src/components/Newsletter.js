@@ -2,7 +2,7 @@ import React from "react";
 
 function Newsletter() {
   return (
-    <div className="footer__newsletter">
+    <div className="newsletter">
       <p>Newsletter </p>
       <p>
         Subscribe to get special offers, free giveaways, and once-in-a-lifetime
