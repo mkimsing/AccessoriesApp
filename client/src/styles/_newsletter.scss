@@ -1,0 +1,27 @@
+.newsletter {
+  max-width: 100vw;
+  background-color: #edecea;
+  height: 254px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.newsletter__form {
+  margin-top: 25px;
+  input {
+    width: 371px;
+    height: 30px;
+  }
+
+  .input__button {
+    background-color: #8191a4;
+    color: #fff;
+    white-space: nowrap;
+    height: 30px;
+    width: 57px;
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+}

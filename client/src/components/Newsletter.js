@@ -3,15 +3,17 @@ import React from "react";
 function Newsletter() {
   return (
     <div className="newsletter">
-      <p>Newsletter </p>
+      <h5>Newsletter </h5>
       <p>
         Subscribe to get special offers, free giveaways, and once-in-a-lifetime
         deals.
       </p>
-      <form>
-        <input type="text" name="newsletter" />
-        <button>JOIN</button>
-      </form>
+      <div className="newsletter__form">
+        <form>
+          <input type="text" name="newsletter" />
+          <button className="input__button">JOIN</button>
+        </form>
+      </div>
     </div>
   );
 }
