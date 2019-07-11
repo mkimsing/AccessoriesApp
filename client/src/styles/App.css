@@ -212,4 +212,40 @@ h1 {
     padding-top: 42%;
   }
 }
+
+.our {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.our__store {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  width: 50%;
+  height: 400px;
+}
+
+.our__store h5 {
+  margin: 5px 0px 5px 0px;
+  color: dimgrey;
+  font-weight: 500;
+  font-size: 15px;
+}
 /*# sourceMappingURL=App.css.map */
